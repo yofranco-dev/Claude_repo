@@ -5,3 +5,4 @@ trend_bot/PAUSE
 __pycache__/
 *.pyc
 .pytest_cache/
+trend_v2/data/

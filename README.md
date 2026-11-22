@@ -16,7 +16,9 @@ Parameters are tuned only on 2019–2022 data and then tested on 2023 onward, wh
 It does **not** mean the strategy makes money. Of the 32 settings with a 70%+ in-sample win rate, 27 kept 70%+
 out-of-sample, but only 4 were profitable. All 4 made less than 0.1% per trade. Read the reports before trading any of this.
 
-> **Best result:** [`swing/`](swing/README.md) is the 70%-win-rate breakout system (+10% target, −20% stop, 2% risk per trade). It held up in 2023–26 and on unseen 2013–16 BTC data. [`fib_swing/`](fib_swing/README.md) adds 3 Fibonacci take-profits, BTC-dominance rotation and data back to 2013, but fails its final test (62%). Also see [`trend_bot/`](trend_bot/README.md) for the end-to-end trend bot (data → rule → backtest → dry run).
+> **Recommended (research-backed):** [`trend_v2/`](trend_v2/README.md) is the BTC/ETH trend core. On the 2023–26 holdout it scored Sharpe 0.72 vs 0.57 for BTC, with a −28% max drawdown vs −53%, and it beats vol-matched BTC. It wins only about 35% of trades but winners are about 2.5× losers. See [`reports/Proven crypto trading strategies.md`](reports/Proven%20crypto%20trading%20strategies.md) for the research behind it.
+>
+> **Earlier 70%-win-rate work:** [`swing/`](swing/README.md) is the 70%-win-rate breakout system (+10% target, −20% stop, 2% risk per trade). It held up in 2023–26 and on unseen 2013–16 BTC data. [`fib_swing/`](fib_swing/README.md) adds 3 Fibonacci take-profits, BTC-dominance rotation and data back to 2013, but fails its final test (62%). Also see [`trend_bot/`](trend_bot/README.md) for the end-to-end trend bot (data → rule → backtest → dry run).
 
 ## Run it
 
