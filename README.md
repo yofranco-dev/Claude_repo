@@ -16,6 +16,8 @@ Parameters are tuned only on 2019–2022 data and then tested on 2023 onward, wh
 It does **not** mean the strategy makes money. Of the 32 settings with a 70%+ in-sample win rate, 27 kept 70%+
 out-of-sample, but only 4 were profitable. All 4 made less than 0.1% per trade. Read the reports before trading any of this.
 
+> **Newer:** see [`trend_bot/`](trend_bot/README.md) for the end-to-end trend bot (data → rule → backtest → dry run).
+
 ## Run it
 
 ```bash
