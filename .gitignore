@@ -1,3 +1,7 @@
-data/
+/data/
+trend_bot/data/live/
+trend_bot/ledger.json
+trend_bot/PAUSE
 __pycache__/
 *.pyc
+.pytest_cache/
