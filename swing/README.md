@@ -9,6 +9,8 @@
 | Account return (2% risk per trade) | +74% | +33% | +130% (+9.4%/yr) |
 | Max account drawdown | −22% | −34% | −34% |
 
+**Extra check on data it had never seen:** BTC alone, 2013–2016 (Bitstamp data, added later): **79.5% of 39 trades won**, profit factor 1.96.
+
 Full details, by year, by coin, risk levels and sensitivity: [reports/REPORT.md](reports/REPORT.md).
 
 ## Rules
